@@ -23,7 +23,6 @@ const GeneralList = ({ category = 'planets' }) => {
         });
       })
       .catch((error) => console.log(error));
-    console.log('qq');
   }, [url]);
 
   const getPersonId = (stringId) => {
