@@ -1,0 +1,29 @@
+.persons-block {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.persons {
+  /* width: 80%; */
+  margin: 10px 10px 10px 0;
+  padding: 10px 20px 10px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+  min-height: 200px;
+  flex: 1 0;
+}
+
+.persons li {
+  border-bottom: 1px solid rgb(43, 42, 42);
+  padding: 10px;
+  transition: all 0.2s;
+}
+
+.persons li:hover {
+  background-color: #222;
+  color: white;
+  cursor: pointer;
+}

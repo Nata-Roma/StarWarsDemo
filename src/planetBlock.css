@@ -1,0 +1,42 @@
+.planet-block {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 auto 10px;
+  padding: 20px 50px 20px 150px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+
+  /* height: 230px; */
+}
+
+.planet-block-description {
+  margin: 10px auto 0;
+  display: flex;
+  align-items: center;
+}
+
+.planet-img-container {
+  flex: 0.5 1;
+}
+
+.planet-img {
+  width: 40%;
+  border-radius: 50%;
+}
+
+ul {
+  flex: 1 0;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  text-align: left;
+  list-style: none;
+  padding: 5px 10px;
+  color: rgb(197, 194, 194);
+}
+h4 {
+  margin: 0;
+}
