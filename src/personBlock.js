@@ -23,12 +23,17 @@ const PersonBlock = ({ id, url, category }) => {
       );
     }
   }
+  
+  const imgError = (e) => {
+   e.target.src = "https://via.placeholder.com/150x150?text=No Image";
+  }
+  
   return (
     <div className="person-block">
       <h4>Person: {id}</h4>
       <div className="person-block-description">
         <div className="person-img-container">
-          <img
+          <img onError={imgError}
             className="person-img"
             src={`https://starwars-visualguide.com/assets/img/${
               category === 'people' ? 'characters' : category
